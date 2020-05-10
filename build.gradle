@@ -20,5 +20,5 @@ dependencies {
 }
 
 application {
-    mainClassName = 'amalaruja.kafkastreamdemo.DemoStreamsApplication'
+    mainClassName = 'amalaruja.kafkastreamsdemo.DemoStreamsApplication'
 }

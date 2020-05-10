@@ -1,4 +1,4 @@
-package amalaruja.kafkastreamdemo;
+package amalaruja.kafkastreamsdemo;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.*;
