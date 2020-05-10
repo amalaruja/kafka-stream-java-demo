@@ -7,11 +7,16 @@ repositories {
     jcenter()
 }
 
+test {
+    testLogging.showStandardStreams = true
+}
+
 dependencies {
     implementation 'com.google.guava:guava:28.2-jre'
     implementation 'org.apache.kafka:kafka-streams:2.4.1'
 
     testImplementation 'junit:junit:4.12'
+    testImplementation 'org.apache.kafka:kafka-streams-test-utils:2.4.1'
 }
 
 application {
